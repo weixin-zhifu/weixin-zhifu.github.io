@@ -1,0 +1,53 @@
+html,body{
+	padding:0px;
+	margin:0px;
+	font-family: 'Karla',sans-serif;
+	color: #fff;
+	height: 100%;
+	overflow: hidden;
+}
+h1{
+	z-index: 100;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-100%);
+	font-size: 58px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	border: 2px solid #fff;
+	padding: 7.5px 0.9375rem;
+	background: rgba(0, 0, 0, .5);
+	border-radius: 3px;
+	overflow: hidden;
+}
+span.pen{
+	position: relative;
+	display: inline-block;
+	animation: drop 0.75s;
+}
+
+@keyframes drop {
+	0%{
+		transform: translateY(-100px);
+		opacity: 0;
+	}
+	90%{
+		opacity: 1;
+		transform: translateY(10px);
+	}
+	100%{
+		transform: translateY(0px);
+	}
+}
+.music{
+	z-index: 100;
+	position: fixed;
+	bottom: 0%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-100%);
+}
+
+.demo{
+	overflow: hidden;
+	z-index: -100;
+}

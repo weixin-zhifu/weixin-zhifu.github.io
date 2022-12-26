@@ -9,7 +9,7 @@ html,body{
 h1{
 	z-index: 100;
 	position: fixed;
-	top: 50%;
+	top: 38%;
 	left: 50%;
 	transform: translateX(-50%) translateY(-100%);
 	font-size: 58px;
@@ -24,6 +24,19 @@ span.pen{
 	position: relative;
 	display: inline-block;
 	animation: drop 0.75s;
+}
+
+.word{
+	z-index: 100;
+	position: fixed;
+	top: 62%;
+	transform: translateX(-50%) translateY(-100%);
+	left: 50%;
+	padding: 5px;
+	font-size: 39px;
+	background: rgba(0, 0, 0, .5);
+	border-radius: 3px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 @keyframes drop {

@@ -30,7 +30,7 @@ span.pen{
 .word{
 	z-index: 100;
 	position: absolute;
-	top: 68%;
+	top: 72%;
 	transform: translateX(-50%) translateY(-100%);
 	left: 50%;
 	width: 80%;

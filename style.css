@@ -5,14 +5,15 @@ html,body{
 	color: #fff;
 	height: 100%;
 	overflow: hidden;
+	background-image: url('./bg.jpg');
 }
 h1{
 	z-index: 100;
 	position: fixed;
-	top: 45%;
+	top: 30%;
 	left: 50%;
 	transform: translateX(-50%) translateY(-100%);
-	font-size: 58px;
+	font-size: 48px;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	border: 2px solid #fff;
 	padding: 7.5px 0.9375rem;
@@ -28,10 +29,11 @@ span.pen{
 
 .word{
 	z-index: 100;
-	position: fixed;
-	top: 67%;
+	position: absolute;
+	top: 68%;
 	transform: translateX(-50%) translateY(-100%);
 	left: 50%;
+	width: 80%;
 	padding: 5px;
 	font-size: 20px;
 	background: rgba(0, 0, 0, .5);
@@ -55,7 +57,7 @@ span.pen{
 .music{
 	z-index: 100;
 	position: fixed;
-	bottom: 0%;
+	bottom: -11%;
 	left: 50%;
 	transform: translateX(-50%) translateY(-100%);
 }

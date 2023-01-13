@@ -3,21 +3,21 @@
 	<head>
 		<meta charset="utf-8">
 		<title>新年快乐</title>
-		<link rel="stylesheet" href="style.css"/>
-		<link rel="shortcut icon" href="favicon.ico" >
+		<link rel="stylesheet" href="./css/style.css"/>
+		<link rel="shortcut icon" href="./css/favicon.ico" >
 		 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<script src="jquery-3.6.0.js"></script>
-		<script src="script.js"></script>
+		<script src="./js/jquery-3.6.0.js"></script>
+		<script src="./js/script.js"></script>
 	</head>
 	<body>
 		<div class="demo">
 		    <canvas id="fireworksField"
 		            style="position: absolute; top: 0px; left: 0px;"></canvas>
 		</div>
-		<h1>202<span class="pen">3</span><br />新年快乐😀</h1>
+		<h1>202<span class="pen">3</span><br />新年快乐</h1>
 		<div class="word"></div>
 		<div class="music">
-			<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="https://music.163.com/outchain/player?type=2&id=2006652688&auto=1&height=66"></iframe>
+			<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="https://music.163.com/outchain/player?type=2&id=1875993690&auto=1&height=66"></iframe>
 		</div>
 	</body>
 	<script type="text/javascript">
@@ -30,7 +30,7 @@
 	
 	<script>
 	  let divEL = document.getElementsByClassName('word')[0];
-	  let text = 'ᑋᵉᑊᑊᵒ ²⁰²³ ᵕ̈ 接下来的元旦和春节 还有后面的日子 我只想和你一个人过，在新的一年里 祝我的女孩天天开心 天天快乐 平安喜乐 万事顺意 也希望在后面的日子里都有你这个小朋友，我不会什么甜言蜜语，但是很高兴能在茫茫人海中与你相遇与之陪伴，实属不易.希望我们彼此都能好好珍惜，傻瓜 今年是你陪我第一次跨年，我很开心 新年快乐呀宝宝.'
+	  let text = '2023 新年快乐'
 	  let index = 1
 	  let timer = null
 	 
@@ -40,7 +40,7 @@
 	    if (index >= text.length) {
 	      clearTimeout(timer)
 	    }
-	    timer = setTimeout(() => showText(), 100)
+	    timer = setTimeout(() => showText(), 300)
 	  }
 	  showText()
 	</script>
